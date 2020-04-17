@@ -8,7 +8,7 @@ maintainer="Eamonn Costello <eamonncostello@gmail.com>"
 license="MIT"
 homepage="eamoc.github.io"
 distfiles="https://github.com/eamoc/dwm/archive/master.zip"
-checksum=97902e2e007aaeaa3c6e3bed1f81785b817b7413947f1db1d3b62b8da4cd110e
+checksum=674c6fb0bc759d4d54fd2e145b14ec6a644c3c8af5796ee6276b6c9fb79c5721
 
 do_build() {
 	[ -e ${FILESDIR}/config.h ] && cp ${FILESDIR}/config.h config.h
